@@ -3,6 +3,9 @@ import styles from './Home.module.css';
 // import { Link } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import Projects from '../Projects/Projects';
+import About from '../About/About';
+import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
 function Home(props) {
   return (
@@ -16,11 +19,11 @@ function Home(props) {
             <li>Projects</li>
           </Link>
           <hr />
-          <Link to='/about'>
+          <Link smooth to='/#about'>
             <li>About</li>
           </Link>
           <hr />
-          <Link to='/contact'>
+          <Link to='/#contact'>
             <li>Contact</li>
           </Link>
           <hr />
@@ -29,8 +32,17 @@ function Home(props) {
           {/* </Link> */}
         </ul>
       </section>
-      <section className={styles.projectsContainer} id='projects'>
+      <section id='projects'>
         <Projects />
+      </section>
+      <section id='about'>
+        <About />
+      </section>
+      <section id='contact'>
+        <Contact />
+      </section>
+      <section id='footer'>
+        <Footer />
       </section>
     </div>
   );
