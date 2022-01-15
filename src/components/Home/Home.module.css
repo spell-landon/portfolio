@@ -1,0 +1,53 @@
+.main {
+  height: 100%;
+}
+.textArea {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../../assets/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textArea h1 {
+  margin-top: -10rem;
+  color: #ffeed6;
+  font-size: 48px;
+  font-weight: 400;
+}
+.main h1 span {
+  color: #cc4343;
+}
+.ulEl {
+  list-style-type: none;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  transition: all 0.2s ease;
+}
+.ulEl a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.ulEl li {
+  margin: 1rem auto;
+  color: #634545;
+  font-size: 24px;
+  font-weight: 200;
+}
+.ulEl hr {
+  border-bottom: #634545;
+  width: 60%;
+}
+
+@media (min-width: 800px) {
+  .ulEl {
+    width: 50%;
+  }
+}
