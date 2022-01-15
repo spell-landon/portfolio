@@ -1,0 +1,16 @@
+.projectsContainer {
+  height: 100vh;
+  background-color: #090a0c;
+  padding: 1rem 1rem;
+}
+.projectsContainer h1 {
+  color: #634545;
+  font-size: 24px;
+  font-weight: 200;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
