@@ -17,7 +17,7 @@ function Contact(props) {
           type='text'
           id='message'
           className={styles.input}
-          rows='4'
+          rows='8'
           cols='50'></textarea>
         <button type='submit' value='Send' className={styles.submit}>
           Send
