@@ -1,7 +1,12 @@
 .projectsContainer {
-  height: 100vh;
+  height: 100%;
   background-color: #090a0c;
-  padding: 1rem 1rem;
+  padding: 3rem 0rem;
+}
+.mainContainer {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
 }
 .projectsContainer h1 {
   color: #634545;
@@ -9,8 +14,16 @@
   font-weight: 200;
 }
 .gallery {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.gallery a {
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  .projectsContainer {
+    padding: 3rem 1rem;
+  }
 }

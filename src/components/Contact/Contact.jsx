@@ -51,7 +51,7 @@ function Contact(props) {
             <li>
               <a
                 className={styles.icon}
-                href='mailto: spell.landon@gmail.com?subject={portfolio} - email icon'
+                href='mailto: spell.landon@gmail.com?subject=I checked out your portfolio...'
                 target='_blank'
                 rel='noreferrer'>
                 <MdAlternateEmail />
