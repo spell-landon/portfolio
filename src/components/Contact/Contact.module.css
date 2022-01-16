@@ -35,9 +35,20 @@
   font-size: 18px;
   align-self: flex-start;
 }
-.textContainer form .input,
-.textContainer form textarea {
+.textContainer form .input {
   width: 100%;
+  padding: 0.3rem;
+  border: none;
+  border-bottom: 1px solid #ffeed6;
+  background-color: transparent;
+  border-radius: 0;
+  margin-bottom: 2rem;
+  outline: none;
+  transition: all 0.2s ease;
+}
+.textContainer form textarea {
+  max-width: 100%;
+  min-width: 100%;
   padding: 0.3rem;
   border: none;
   background-color: rgba(255, 238, 214, 0.5);
@@ -49,7 +60,6 @@
 .textContainer form .input:focus,
 .textContainer form textarea:focus {
   background-color: rgba(255, 238, 214, 1);
-  border-radius: 25px;
   padding: 0.3rem 1rem;
 }
 .submit {
