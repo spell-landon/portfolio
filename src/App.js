@@ -1,6 +1,5 @@
 import Home from './components/Home/Home';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
 import RecipeaceProject from './components/IndProjects/RecipeaceProject/RecipeaceProject';
 import JobSearchProject from './components/IndProjects/JobSearchProject/JobSearchProject';
 import FlashCardProject from './components/IndProjects/FlashCardProject/FlashCardProject';
