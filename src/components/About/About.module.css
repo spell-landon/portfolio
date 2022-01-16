@@ -1,20 +1,30 @@
 .aboutContainer {
-  height: 65vh;
+  height: 100%;
   background-color: rgba(20, 22, 27, 100%);
-  padding: 1rem 1rem;
+  padding: 3rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
 }
-.aboutContainer h1 {
+.textContainer {
+  width: 100%;
+  max-width: 800px;
+}
+.textContainer h1 {
+  align-self: flex-start;
   color: #634545;
   font-size: 24px;
   font-weight: 200;
+  margin-bottom: 1rem;
 }
-.paragraph {
+.textContainer .paragraph {
   color: #ffeed6;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 14px;
+  width: 100%;
+  max-width: 800px;
+  min-width: 300px;
 }

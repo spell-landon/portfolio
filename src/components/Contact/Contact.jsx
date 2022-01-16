@@ -23,6 +23,14 @@ function Contact(props) {
           Send
         </button>
       </form>
+      <div className={styles.additional}>
+        <p>Or you can find me here:</p>
+        <ul>
+          <li>LinkedIn</li>
+          <li>Github</li>
+          <li>Email</li>
+        </ul>
+      </div>
     </div>
   );
 }

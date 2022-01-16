@@ -1,6 +1,6 @@
 /* CONTAINER */
 .contactContainer {
-  /* height: 100vh; */
+  height: 100%;
   background-color: #090a0c;
   padding: 1rem 1rem;
   display: flex;
@@ -22,6 +22,7 @@
   justify-content: center;
   align-items: center;
   width: 80%;
+  max-width: 500px;
 }
 
 .contactContainer form label {
@@ -34,10 +35,17 @@
   width: 100%;
   padding: 0.3rem;
   border: none;
-  background-color: #ffeed6;
+  background-color: rgba(255, 238, 214, 0.5);
   border-radius: 0;
   margin-bottom: 2rem;
   outline: none;
+  transition: all 0.2s ease;
+}
+.contactContainer form .input:focus,
+.contactContainer form textarea:focus {
+  background-color: rgba(255, 238, 214, 1);
+  border-radius: 25px;
+  padding: 0.3rem 1rem;
 }
 .submit {
   background-color: #6b62cb;
@@ -56,4 +64,7 @@
 }
 .submit:active {
   background-color: #716ac4;
+}
+.additional {
+  color: white;
 }

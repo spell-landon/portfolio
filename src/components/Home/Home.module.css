@@ -34,6 +34,9 @@
 .ulEl a {
   text-decoration: none;
   cursor: pointer;
+  transform: scale(0.5);
+  transform: translateY(10px);
+  opacity: 0;
 }
 .ulEl li {
   margin: 1rem auto;
@@ -44,6 +47,7 @@
 .ulEl hr {
   border-bottom: #634545;
   width: 60%;
+  opacity: 0;
 }
 
 @media (min-width: 800px) {
