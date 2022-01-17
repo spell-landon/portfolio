@@ -11,8 +11,11 @@ import Footer from '../Footer/Footer';
 // stylesheet
 import styles from './Home.module.css';
 
+import projectData from '../../data.json';
+
 function Home(props) {
-  
+  const [data, setData] = useState(projectData);
+
   return (
     <div className={styles.main}>
       <section className={styles.textArea}>
@@ -69,7 +72,7 @@ function Home(props) {
       </section>
       {/* Scroll Elements / Components */}
       <Element name='projects'>
-        <Projects />
+        <Projects data={data} />
       </Element>
       <Element name='about'>
         <About />

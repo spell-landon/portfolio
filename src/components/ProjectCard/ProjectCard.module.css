@@ -1,7 +1,7 @@
 .cardContainer {
   width: 100%;
   height: 160px;
-  margin: 0.5rem auto;
+  margin: 0 auto;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -39,8 +39,8 @@
   color: white;
 }
 .cardContainer img {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: block;
 }

@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './ProjectCard.module.css';
 
 function ProjectCard({ data }) {
-    console.log(data.image)
   return (
     <div className={styles.cardContainer}>
       <img src={data.image} alt={data.name} />

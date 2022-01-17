@@ -3,20 +3,22 @@ import { Routes, Route } from 'react-router-dom';
 // components
 import Home from './components/Home/Home';
 // individual projects
-import RecipeaceProject from './components/IndProjects/RecipeaceProject/RecipeaceProject';
-import JobSearchProject from './components/IndProjects/JobSearchProject/JobSearchProject';
-import FlashCardProject from './components/IndProjects/FlashCardProject/FlashCardProject';
+import IndProject from './IndProject/IndProject';
+import { useState } from 'react';
+import projectData from './data.json';
 
 function App() {
+  const [data, setData] = useState();
   return (
     <>
       <Routes>
         {/* Initial Home Path */}
         <Route path='/' element={<Home />} />
-        {/* Individual Projects */}
-        <Route path='/recipeace' element={<RecipeaceProject />} />
-        <Route path='/job-search-tracker' element={<JobSearchProject />} />
-        <Route path='/flash-card' element={<FlashCardProject />} />
+        {/* Individual Project Path */}
+        <Route
+          path='/:name'
+          element={<IndProject data={data} setData={setData} />}
+        />
       </Routes>
     </>
   );
