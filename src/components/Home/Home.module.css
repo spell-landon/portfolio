@@ -23,7 +23,6 @@
 }
 .ulEl {
   list-style-type: none;
-  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,15 +33,20 @@
 .ulEl a {
   text-decoration: none;
   cursor: pointer;
-  transform: scale(0.5);
-  transform: translateY(10px);
-  opacity: 0;
 }
-.ulEl li {
-  margin: 1rem auto;
+.ulEl li,
+.ulEl a {
+  margin: 0.5rem auto;
   color: #634545;
   font-size: 24px;
   font-weight: 200;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.ulEl a:hover {
+  background-color: rgba(204, 67, 67, 0.5);
+  color: #ffeed6;
 }
 .ulEl hr {
   border-bottom: #634545;
