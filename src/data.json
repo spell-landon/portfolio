@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Recipeace",
+    "description": "Recipeace is a SPA that lets you search for specific food items and have a recipe populate. If you're feeling adventurous, hit the 'Surprise Me' button or randomize!",
+    "image": "https://github.com/spell-landon/portfolio/blob/56da135a3373cdba06f5b3eaaf3efe7d48eeb4e3/src/assets/recipeace.png",
+    "live-site": "https://recipeace.netlify.app",
+    "github": "https://github.com/spell-landon/recipeace"
+  },
+  {
+    "name": "Job Search Tracker",
+    "description": "Job Search Tracker, (name in progress...) is a site that will allow you to keep track of the interviewing process. It helps to keep you organized and aware of the who, what and where during your job hunt.",
+    "image": "https://github.com/spell-landon/portfolio/blob/f96426987c71e9a169421b05bbcf9e832b13639e/src/assets/jobsearchtracker.png",
+    "live-site": "https://job-search-tracker.netlify.app",
+    "github": "https://github.com/spell-landon/application-tracker-react"
+  },
+  {
+    "name": "Flash Cards",
+    "description": "Flash Cards is a browser based game that will test your knowledge with a point based system. Play along and see if you can get them all correct!",
+    "image": "https://github.com/spell-landon/portfolio/blob/f96426987c71e9a169421b05bbcf9e832b13639e/src/assets/flashcardgame.png",
+    "live-site": "https://app.netlify.com/sites/unruffled-nightingale-9e8775/overview",
+    "github": "https://github.com/spell-landon/flash-cards"
+  }
+]
