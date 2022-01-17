@@ -7,9 +7,12 @@ import FlashCardGameCard from '../ProjectCards/FlashCardGame/FlashCardGameCard';
 // Link
 import { Link } from 'react-router-dom';
 
+
 function Projects(props) {
+
   return (
-    <div className={styles.projectsContainer}>
+    <div
+      className={styles.projectsContainer}>
       <div className={styles.mainContainer}>
         <h1>Projects</h1>
         <div className={styles.gallery}>

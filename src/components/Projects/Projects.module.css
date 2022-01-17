@@ -1,7 +1,7 @@
 .projectsContainer {
   height: 100%;
   background-color: #090a0c;
-  padding: 3rem 0rem;
+  padding: 3rem 1rem;
 }
 .mainContainer {
   max-width: 800px;
@@ -26,4 +26,12 @@
   .projectsContainer {
     padding: 3rem 1rem;
   }
+}
+.visible,
+.invisible {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+.visible {
+  opacity: 1;
 }
